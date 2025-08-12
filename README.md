@@ -28,3 +28,7 @@ To run continual finetuning, follow the script [run_inc.sh](https://github.com/d
 # Eval 
 
 Code for evaluation will be updated soon.
+
+# Trained Checkpoints
+
+We will release the trained models soon.
