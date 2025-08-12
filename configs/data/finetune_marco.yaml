@@ -1,0 +1,8 @@
+datasets:
+  - name: "msmaro"
+    bucket: "s3://contrastive/msmarco_distillation_simlm_rescored_reranked_min15/shard-{00000..00004}.jsonl.gz"
+    query_prefix: "search_query"
+    document_prefix: "search_document"
+    objective: 
+      type: "triplet"
+      columns: ["query", "document", "negatives"]

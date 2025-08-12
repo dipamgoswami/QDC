@@ -1,0 +1,8 @@
+datasets:
+  - name: "fiqa"
+    bucket: "tmp/contrastive/fiqa2/shard-00000.jsonl.gz"
+    query_prefix: "search_query"
+    document_prefix: "search_document"
+    objective: 
+      type: "triplet"
+      columns: ["query", "document", "negatives"]

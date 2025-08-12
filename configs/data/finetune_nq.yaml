@@ -1,0 +1,8 @@
+datasets:
+  - name: "nq_triples"
+    bucket: "s3://contrastive/nq_cocondensor_hn_mine_reranked_min15/shard-00000.jsonl.gz"
+    query_prefix: "search_query"
+    document_prefix: "search_document"
+    objective: 
+      type: "triplet"
+      columns: ["query", "document", "negatives"]

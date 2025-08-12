@@ -1,0 +1,8 @@
+datasets:
+  - name: "hotpot"
+    bucket: "s3://contrastive/hotpotqa_hn_mine_shuffled/shard-{00000..00001}.jsonl.gz"
+    query_prefix: "search_query"
+    document_prefix: "search_document"
+    objective: 
+      type: "triplet"
+      columns: ["query", "document", "negatives"]

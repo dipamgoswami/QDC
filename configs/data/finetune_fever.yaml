@@ -1,0 +1,8 @@
+datasets:
+  - name: "fever"
+    bucket: "s3://contrastive/fever_hn_mine/shard-{00000..00001}.jsonl.gz"
+    query_prefix: "search_query"
+    document_prefix: "search_document"
+    objective: 
+      type: "triplet"
+      columns: ["query", "document", "negatives"]
