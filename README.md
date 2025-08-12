@@ -18,11 +18,13 @@ For setting up the environment, follow [contrastors](https://github.com/nomic-ai
 # Data
 For the first four datasets in the proposed CDR benchmark (MS Marco, NQ, HotpotQA, Fever), we take the datasets with already mined 7 hard-negatives per query from [contrastors](https://github.com/nomic-ai/contrastors). Follow the [Data Access](https://github.com/nomic-ai/contrastors?tab=readme-ov-file#data-access) instructions to download these datasets.
 
-For FiQA2018, we use the [gte-base model](https://huggingface.co/thenlper/) to mine hard-negatives and we share the dataset here.
+For FiQA2018, we use the [gte-base model](https://huggingface.co/thenlper/) to mine hard-negatives and we share the dataset [here](https://drive.google.com/drive/folders/15gEm7aBjFbdXZ6Achb67dBR9UPJWbf8p?usp=sharing).
 
 
-# 
+# Run 
 
+To run continual finetuning, follow the script [run_inc.sh](https://github.com/dipamgoswami/QDC/blob/main/run_inc.sh). 
 
+# Eval 
 
-Code will be available soon.
+Code for evaluation will be updated soon.
