@@ -39,7 +39,7 @@ model_args:
 data_args:
   input_shards: "configs/data/finetune_marco.yaml"
   workers: 4
-  batch_size: 32
+  batch_size: 128
   seed: 42
   shuffle: false
   download: true
