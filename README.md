@@ -40,4 +40,4 @@ Code for evaluation will be updated soon.
 
 # Trained Checkpoints
 
-We will release the trained models soon.
+The checkpoints for the trained models (FT and FT+KD) used in the paper can be found here: [link](https://drive.google.com/drive/folders/1y79myiAyz_0XccQLU_oXw47eiJ0NK4_X?usp=share_link).
