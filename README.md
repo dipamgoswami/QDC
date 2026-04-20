@@ -36,7 +36,9 @@ To run continual finetuning, follow the script [run_inc.sh](https://github.com/d
 
 # Eval 
 
-Code for evaluation will be updated soon.
+To run evaluation: 
+
+`python eval/eval_retrieval.py --old_model_name="marco_nq_hotpot_fever" --new_model_name="marco_nq_hotpot_fever_fiqa" --task_num=5`
 
 # Trained Checkpoints
 
